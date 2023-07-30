@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font favicon -->
+    <link rel="icon" href="logo_Golden-Tech2.png">
+    <!-- bootstrap5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/3e56bd9026.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome6.4.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- button navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <!-- tooltip -->
+    <script>
+     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+     })
+    </script>
+    <!-- avoir accès aux icônes des différents langages web (HTML, CSS, Sass, JS, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Golden Tech</title>
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="barnav container-fluid fixed-top mb-5">
+      <a class="navbar-brand ms-5" href="#"><img src="GoldenTechSite.png" alt="Mon logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-star justify-content-lg-end" id="navbarNav">
+        <ul class="navbar-nav py-1">
+          <li class="nav-item me-1 ms-5">
+            <a class="nav-link active menu" aria-current="page" href="#Accueil ">Accueil</a>
+          </li>
+          <li class="nav-item me-1 ms-md-5">
+            <a class="nav-link menu" aria-current="page" href="#service ">Services</a>
+          </li>
+          <li class="nav-item me-1 ms-md-5">
+            <a class="nav-link menu" aria-current="page" href="#propos ">A propos</a>
+          </li>
+          <li class="nav-item me-1 ms-md-5">
+            <a class="nav-link menu" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item ms-5 me-5 mt-3 d-none d-lg-flex">
+              <a href="#"><i class="fa-brands fa-facebook-f" style="color: white;"></i></a>
+          </li>
+          <li class="nav-item me-5 mt-3 d-none d-lg-flex">
+              <a href="#"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
+          </li>
+          <li class="nav-item me-5 mt-3 d-none d-lg-flex">
+              <a href="#"><i class="fa-brands fa-linkedin-in" style="color: white;"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container carousel py-5">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="texte d-flex flex-column justify-content-center align-items-center">
+            <h1>DÉVELOPPEUR INFORMATIQUE</h1>
+            <h5>INDÉPENDANTE</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="texte d-flex flex-column justify-content-center align-items-center">
+            <h1>CREATION DE SITES WEB</h1>
+            <h5>Site vitrine , e -commerce</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="texte d-flex flex-column justify-content-center align-items-center">
+            <h1>WEB DESIGN CONCEPTION</h1>
+            <h1>GRAPHIQUE</h1>
+            <h5>logo , carte visite , flyers</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  <div class="container services mt-5 py-5" id="service">
+    <h1>NOS SERVICES</h1>
+    <p class="prestation">Des prestations adaptées à vos besoins</p>
+    <div class="row pt-5">
+        <div class="row casesservices">
+          <div class="col-12 col-lg-6 casesservice ms-5 me-5 mb-5 d-flex flex-row">
+            <div class="iconeservice text-center text-light">
+              <i class="fa-solid fa-list-check mt-2"></i>                       
+            </div>
+            <div class="service-text mt-4">
+              <h5>GESTION DE PROJETS WEB</h5>
+              <p>Site vitrine, corporate, évènementiel, e-commerce, intranet, application mobile.</p>  
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 casesservice mb-5 casesservice2 d-flex flex-row">
+            <div class="iconeservice text-center text-light">
+              <i class="fa-solid fa-code mt-2"></i>                     
+            </div>
+            <div class="service-text mt-4">
+              <h5>DÉVELOPPEMENTS SPÉCIFIQUES</h5>
+              <p>Des outils adaptés à votre coeur de métier,
+                applications & solutions personnalisées.</p>  
+            </div>
+          </div>
+        </div> 
+        <div class="row casesservices">
+          <div class="col-12 col-lg-6 casesservice mb-5  me-5 ms-5 d-flex flex-row">
+            <div class="iconeservice text-center text-light">
+              <i class="fa-regular fa-eye mt-2"></i>                       
+            </div>
+            <div class="service-text mt-4">
+              <h5>CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
+              <p>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</p>  
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 casesservice mb-5 casesservice2 d-flex flex-row">
+            <div class="iconeservice text-center text-light">
+              <i class="fa-solid fa-gem mt-2"></i>                        
+            </div>
+            <div class="service-text mt-4">
+              <h5>DYNAMISME DES PAGES</h5>
+              <p>Des animations de contenu non intrusives pour embellir votre projet.</p>  
+            </div>
+          </div>
+        </div>
+        <div class="row casesservices">
+          <div class="col-12 col-lg-6 casesservice ms-5 me-5 d-flex flex-row">
+            <div class="iconeservice text-center text-light">
+              <i class="fa-solid fa-chart-simple mt-2"></i>                       
+            </div>
+            <div class="service-text mt-4">
+              <h5>INTERFACE D'ADMINISTRATION</h5>
+              <p>Outils spécifiques au bon fonctionnement de votre entreprise.</p>  
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 casesservice casesservice2 d-flex flex-row">
+            <div class="iconeservice text-center text-light">
+              <i class="fa-solid fa-chalkboard-user mt-2"></i>                  
+            </div>
+            <div class="service-text mt-4">
+              <h5>FORMATION</h5>
+              <p>Des intégrations (X)HTML / CSS respectueuses des standards du Web.</p>  
+            </div>
+          </div>
+        </div>
+      
+      <div class="col-12 imageService mt-5">
+        <img src="ServicesGoldenTech.jpg" alt="Nos sercices">
+      </div>
+    </div>
+  </div>
+
+  <div class="container Apropos mt-5 py-5" id="propos">
+    <h1 class="mb-5">A PROPOS DE NOUS</h1>
+      <div class="row d-flex flex-row">
+        <div class="col-12 col-md-4">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nam, ipsum natus deserunt vitae aperiam velit. Necessitatibus veritatis laborum soluta neque minus, molestias consequuntur quas placeat accusantium, laboriosam vel architecto illo, blanditiis rerum eos unde? Modi repudiandae praesentium aspernatur harum doloremque necessitatibus dolorum tempora! Totam voluptatibus assumenda nemo doloremque, in quibusdam. Temporibus dolore sed at explicabo quo sequi ipsam natus? Ducimus nemo mollitia veniam, consequuntur quos dolor minima consectetur explicabo officiis architecto. Nulla porro adipisci fuga, quidem veritatis commodi ducimus? Aliquid esse incidunt autem enim et. Inventore quod provident totam molestiae sapiente? Esse culpa quod expedita fugiat aperiam. Culpa, vitae?</p>>     
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+          <img src="apropos.jpg" alt="A props de golden tech">
+        </div>
+        <div class="col-12 col-md-4">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nam, ipsum natus deserunt vitae aperiam velit. Necessitatibus veritatis laborum soluta neque minus, molestias consequuntur quas placeat accusantium, laboriosam vel architecto illo, blanditiis rerum eos unde? Modi repudiandae praesentium aspernatur harum doloremque necessitatibus dolorum tempora! Totam voluptatibus assumenda nemo doloremque, in quibusdam. Temporibus dolore sed at explicabo quo sequi ipsam natus? Ducimus nemo mollitia veniam, consequuntur quos dolor minima consectetur explicabo officiis architecto. Nulla porro adipisci fuga, quidem veritatis commodi ducimus? Aliquid esse incidunt autem enim et. Inventore quod provident totam molestiae sapiente? Esse culpa quod expedita fugiat aperiam. Culpa, vitae?</p>>     
+        </div>
+      </div>
+  </div>
+
+  <div class="container mt-5 py-5 Team">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-5">EQUIPES</h1>
+        </div>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item carouse active">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 col-sm-6">
+                                <div class="Teamimg d-flex justify-content-center">
+                                    <img src="testimonial_img_1.jpg" alt="PDG">
+                                </div>
+                                <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                    <h4>Mme DABO Rokhaya Ndiaye</h4>
+                                    <p class="gras">PDG</p>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                    </p>
+                                </div>
+                            </div>   
+                            <div class="col-12 col-lg-4 col-sm-6 carousel2">
+                                <div class="Teamimg d-flex justify-content-center">
+                                    <img src="testimonial_img_2.jpg" alt="Bras droit d'entrepreneur">
+                                </div>
+                                <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                    <h4>Mme DIOUF Mariama Diallo</h4>
+                                    <p class="gras">Bras droit d'entrepreneur</p>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 col-sm-6">
+                                <div class="Teamimg d-flex justify-content-center">
+                                    <img src="testimonial_img_3.jpg" alt="Directrice technique">
+                                </div>
+                                <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                    <h4>Mlle FALL Anta</h4>
+                                    <p class="gras">Directrice technique</p>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                    </p>
+                                </div>
+                            </div>  
+                        </div>           
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row"> 
+                            <div class="col-12 col-lg-4 col-sm-6 carousel2">
+                                <div class="Teamimg d-flex justify-content-center">
+                                    <img src="testimonial_img_1.jpg" alt="Développeuse">
+                                </div>
+                                <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                    <h4>Mlle WADE Awa Ndione</h4>
+                                    <p class="gras">Développeuse</p>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 col-sm-6">
+                                <div class="Teamimg d-flex justify-content-center">
+                                    <img src="testimonial_img_3.jpg" alt="Intégrateur web">
+                                </div>
+                                <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                    <h4>Mlle KHOUMA FATOUMATA</h4>
+                                    <p class="gras">Intégrateur web</p>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 col-sm-6">
+                                <div class="Teamimg d-flex justify-content-center">
+                                    <img src="testimonial_img_3.jpg" alt="Designer">
+                                </div>
+                                <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                    <h4>Mlle FALL Adjia Marie</h4>
+                                    <p class="gras">Designer</p>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">   
+                          <div class="col-12 col-lg-4 col-sm-6 carousel2">
+                              <div class="Teamimg d-flex justify-content-center">
+                                  <img src="testimonial_img_1.jpg" alt="Responsable communication">
+                              </div>
+                              <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                  <h4>Mme CISSE Oumou Koulsoum</h4>
+                                  <p class="gras">Responsable communication</p>
+                                  <p>
+                                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                  </p>
+                              </div>
+                          </div> 
+                          <div class="col-12 col-lg-4 col-sm-6">
+                              <div class="Teamimg d-flex justify-content-center">
+                                  <img src="testimonial_img_3.jpg" alt="Marketing Manager">
+                              </div>
+                              <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                  <h4>Mlle NIANG Aminata</h4>
+                                  <p class="gras">Marketing Manager</p>
+                                  <p>
+                                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                  </p>
+                              </div>
+                          </div>   
+                          <div class="col-12 col-lg-4 col-sm-6 carousel2">
+                              <div class="Teamimg d-flex justify-content-center">
+                                  <img src="testimonial_img_1.jpg" alt="Account Manager">
+                              </div>
+                              <div class="Teamtext d-flex justify-content-center align-items-center text-center flex-column">
+                                  <h4>Mlle SECK Nabou</h4>
+                                  <p class="gras">Account Manager</p>
+                                  <p>
+                                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa officiis dolore qui enim saepe pariatur, animi dolorum, ratione, fuga quisquam possimus non corporis eum.
+                                  </p>
+                              </div>
+                          </div>
+                        </div>                        
+                    </div>
+                </div>
+    </div>
+  </div>
+
+  <div class="container partenaire mt-5 py-5">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-5">NOS PARTENAIRES</h1>
+        </div>
+    </div>
+    <div class="row gx-2">
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img src="téléchargement__1_-removebg-preview (1) 1.png" alt="partenaire"> 
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img src="téléchargement-removebg-preview 1.png" alt="partenaire"> 
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img src="dcb143e57526b2d36743de8ba7ca354c-removebg-preview 1.png" alt="partenaire"> 
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img src="creation-de-logo-original-4534-900450-removebg-preview 1.png" alt="partenaire"> 
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img src="Les-nouveaux-outils-pour-créer-le-logo-de-son-entreprise-removebg-preview 1.png" alt="partenaire"> 
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img src="5284752-removebg-preview 1.png" alt="partenaire"> 
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer mt-5 p-5">
+    <div class="row">
+      <div class="col-md-4 footer-box">
+        <img src="logo_Goldden-tech_site.png">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quo dolore! Iusto obcaecati a ducimus.</p>
+      </div>
+      <div class="col-md-4 footer-box">
+        <h5><b>CONTACT US</b></h5>
+        <p><i class="fa fa-map-marker me-2" aria-hidden="true"></i>Dakar, Sénégal</p>
+        <p><i class="fa fa-phone me-2" aria-hidden="true"></i>+221 78 547 25 55</p>
+        <p><i class="fa fa-envelope-open-o me-2" aria-hidden="true"></i>goldentech@gmail.com</p>
+      </div>
+      <div class="col-md-4 footer-box">
+        <h5><b>SUBCRIBE NESWSLETTER</b></h5>
+        <input type="email" class="form-control mt-5" id="floatingInput" placeholder="name@example.com">
+        <button type="button" class="mt-5 p-2">SUBCRIBE</button>
+      </div>
+    </div>
+    <hr>
+    <P class="copyright">Website Crfted by Easy Tutorial</P>
+  </div>
+</body>
+</html>

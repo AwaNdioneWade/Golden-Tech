@@ -1,0 +1,297 @@
+body{
+    background-image: url(body_Golden-tech.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/**************************************NAVBAR************************************************/
+.barnav{
+    background-color: white;
+}
+.navbar-nav{
+    background-color: #02b0e2;
+    border-radius: 50px;
+}
+
+.menu{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover{
+    font-size: 20px;
+    color: #eeba2b;
+    text-decoration: none;
+}
+
+
+.nav-item a i:hover{
+    color: #eeba2b;
+}
+
+
+/**************************************CAROUSEL************************************************/
+
+.texte{
+    height: 500px;
+}
+.texte h1{
+    font-size: 54px;
+    font-weight: bold;
+    color: white;
+}
+.texte h5{
+    font-size: 34px;
+    color: white;
+}
+
+/**************************************SERVICES************************************************/
+
+.services{
+    background-color: white;
+}
+
+.services h1{
+    font-size: 54px;
+    text-align: center;
+    color: #02b0e2;
+}
+.services .prestation{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+.casesservice{
+    background-color: white;
+    width: 40%;
+    color: #484747;
+    border-radius: 25px;
+    border-left: 3px solid #eeba2b;
+    transform: skewX(-10deg);
+}
+.casesservice2{
+    position: relative;
+    left: 50px;
+}
+
+.iconeservice{
+    position: relative;
+    width: 75px;
+    height: 40px;
+    border: 5px solid #eeba2b;
+    border-radius: 100%;
+    background-color: #eeba2b;
+    top: 60px;
+    right: 30px;
+    transform: translateY(-50%) skewX(10deg);
+}
+
+.imageService img{    
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+
+
+/**************************************A PROPOS************************************************/
+
+
+.Apropos{
+    background-color: white;
+}
+
+.Apropos h1{
+    color: #02b0e2;
+    text-align: center;
+}
+
+
+/**************************************TEAM************************************************/
+.Team {
+    background-color: white;
+}
+
+.Team h1{
+    color: #02b0e2;
+    text-align: center;
+}
+.Teamimg img{
+    width: 175px;
+    height: 175px;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.Team h4{
+    color: #eeba2b;
+}
+.Team .gras{
+    font-weight: bold;
+}
+.Teamtext{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    border-left: 10px solid #eeba2b;
+}
+.Teamtext img{
+    width: 50px;
+}
+/* .Teamicon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #02b0e2;
+}
+.Teamicon i{
+    font-size: 23px;
+}
+
+.Teamicon:hover {
+    background-color: #eeba2b;
+} */
+
+
+/**************************************partenaire************************************************/
+
+.partenaire{
+    background-color: white;
+}
+
+.partenaire h1{
+    color: #02b0e2;
+    text-align: center;
+}
+
+
+.footer{
+    background-color: white;
+    color: #02b0e2;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer input::placeholder{
+    color: #02b0e2;
+}
+.footer input{
+    color: #02b0e2;
+    max-width: 250px;
+}
+.footer-box button{
+    border: none;
+    background-color: #eeba2b;
+    color: #02b0e2;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+}
+
+hr{
+    background-color: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 991px){
+    .texte h1{
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .texte h1{
+        font-size: 28px;
+    }
+    
+    .texte h5{
+        font-size: 30px;
+        color: white;
+    }
+
+
+    .services h1{
+        font-size: 44px;
+        text-align: center;
+        color: #02b0e2;
+    } 
+    
+    .casesservice{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 515px){
+    .texte h1{
+        font-size: 25px;
+    }
+    .texte h5{
+        font-size: 28px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .texte h1{
+        font-size: 24px;
+    }
+    .texte h5{
+        font-size: 27px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 455px){
+    .texte h1{
+        font-size: 22px;
+    }
+    .texte h5{
+        font-size: 25px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .texte h1{
+        font-size: 20px;
+    }
+    .texte h5{
+        font-size: 24px;
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .texte h1{
+        font-size: 18px;
+    }
+    .texte h5{
+        font-size: 22px;
+        color: white;
+    }
+}
+

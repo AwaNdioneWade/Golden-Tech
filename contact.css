@@ -1,0 +1,39 @@
+/**************************************NAVBAR************************************************/
+.barnav{
+    background-color: white;
+}
+.navbar-nav{
+    background-color: #02b0e2;
+    border-radius: 50px;
+}
+
+.menu{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover{
+    font-size: 20px;
+    color: #eeba2b;
+    text-decoration: none;
+}
+
+
+.nav-item a i:hover{
+    color: #eeba2b;
+}
+
+
+
+.contact input::placeholder, .contact textarea::placeholder{
+    color: #02b0e2;
+}
+
+.contact label{
+    color: #eeba2b;
+}
+
+.contact iframe{
+    width: 100%;
+}
